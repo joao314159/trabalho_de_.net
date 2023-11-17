@@ -1,8 +1,16 @@
 ﻿@page "/"
 @namespace TrabConteudoAcademico.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@{
-    Layout = "_Layout";
-}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, TrabConteudoAcademico
 
-<component type="typeof(App)" render-mode="ServerPrerendered" />
+<Router AppAssembly="@typeof(Program).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="routeData" DefaultLayout="typeof(Login)" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="typeof(Login)">
+            <p>Página não encontrada</p>
+        </LayoutView>
+    </NotFound>
+</Router>
