@@ -1,3 +1,59 @@
+/* Reset CSS */
+
+/* Box-sizing reset */
+*[b-d11ylnvvgr],
+*[b-d11ylnvvgr]::before,
+*[b-d11ylnvvgr]::after {
+    box-sizing: border-box;
+}
+
+/* Remove margin and padding */
+body[b-d11ylnvvgr],
+h1[b-d11ylnvvgr],
+h2[b-d11ylnvvgr],
+h3[b-d11ylnvvgr],
+h4[b-d11ylnvvgr],
+h5[b-d11ylnvvgr],
+h6[b-d11ylnvvgr],
+p[b-d11ylnvvgr],
+ul[b-d11ylnvvgr],
+ol[b-d11ylnvvgr],
+dl[b-d11ylnvvgr],
+figure[b-d11ylnvvgr],
+blockquote[b-d11ylnvvgr],
+fieldset[b-d11ylnvvgr],
+legend[b-d11ylnvvgr] {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default list styles */
+ul[b-d11ylnvvgr],
+ol[b-d11ylnvvgr] {
+    list-style: none;
+}
+
+/* Remove default form styles */
+button[b-d11ylnvvgr],
+input[b-d11ylnvvgr],
+select[b-d11ylnvvgr],
+textarea[b-d11ylnvvgr] {
+    margin: 0;
+}
+
+/* Reset anchor styles */
+a[b-d11ylnvvgr] {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default table spacing */
+table[b-d11ylnvvgr] {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 .page[b-d11ylnvvgr] {
     position: relative;
     display: flex;

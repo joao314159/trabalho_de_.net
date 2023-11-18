@@ -1,4 +1,166 @@
+/* _content/TrabConteudoAcademico/Pages/Login.razor.rz.scp.css */
+/* Definindo variáveis */
+:root[b-logm6pimnc] {
+  --cor-primaria: #50a5b7;
+  --cor-secundaria: #d9d9d9;
+  --tamanho-fonte: 16px;
+}
+
+*[b-logm6pimnc] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body[b-logm6pimnc] {
+  width: 100%;
+  height: 100vh;
+  background-color: #ceedf3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container[b-logm6pimnc] {
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario[b-logm6pimnc] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+}
+
+input[b-logm6pimnc] {
+  width: 100%;
+  margin-block: 7px;
+
+  border-radius: 8px;
+
+  padding: 8px 15px;
+  outline: none;
+  background-color: #50a5b7;
+  border: 2px solid black;
+  color: white;
+}
+
+input[b-logm6pimnc]::placeholder {
+  color: white;
+
+  font-size: 16px;
+}
+
+.esqueceuSenha[b-logm6pimnc] {
+  font-size: 14px;
+  color: black;
+  margin-left: auto;
+}
+
+.buttons[b-logm6pimnc] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.buttons button[b-logm6pimnc] {
+  border-radius: 8px;
+  background-color: #50a5b7;
+  color: white;
+  font-size: 16px;
+
+  padding: 5px 10px;
+  transition: transform 0.3s ease;
+}
+.buttons button:hover[b-logm6pimnc] {
+  transform: scale(1.1);
+}
+
+.buttons .btn1[b-logm6pimnc] {
+  width: 40%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons .btn2[b-logm6pimnc] {
+  width: 55%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #0e6172;
+}
 /* _content/TrabConteudoAcademico/Shared/MainLayout.razor.rz.scp.css */
+/* Reset CSS */
+
+/* Box-sizing reset */
+*[b-d11ylnvvgr],
+*[b-d11ylnvvgr]::before,
+*[b-d11ylnvvgr]::after {
+    box-sizing: border-box;
+}
+
+/* Remove margin and padding */
+body[b-d11ylnvvgr],
+h1[b-d11ylnvvgr],
+h2[b-d11ylnvvgr],
+h3[b-d11ylnvvgr],
+h4[b-d11ylnvvgr],
+h5[b-d11ylnvvgr],
+h6[b-d11ylnvvgr],
+p[b-d11ylnvvgr],
+ul[b-d11ylnvvgr],
+ol[b-d11ylnvvgr],
+dl[b-d11ylnvvgr],
+figure[b-d11ylnvvgr],
+blockquote[b-d11ylnvvgr],
+fieldset[b-d11ylnvvgr],
+legend[b-d11ylnvvgr] {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default list styles */
+ul[b-d11ylnvvgr],
+ol[b-d11ylnvvgr] {
+    list-style: none;
+}
+
+/* Remove default form styles */
+button[b-d11ylnvvgr],
+input[b-d11ylnvvgr],
+select[b-d11ylnvvgr],
+textarea[b-d11ylnvvgr] {
+    margin: 0;
+}
+
+/* Reset anchor styles */
+a[b-d11ylnvvgr] {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default table spacing */
+table[b-d11ylnvvgr] {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 .page[b-d11ylnvvgr] {
     position: relative;
     display: flex;
