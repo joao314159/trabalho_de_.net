@@ -1,0 +1,72 @@
+@page "/principal"
+
+@inherits LayoutComponentBase
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel = "stylesheet" href = "Principal.razor.css">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
+        type='text/css'>
+
+</head>
+
+<section class = "tela">
+
+    <header class = "bloco1">
+        <div class = "title_nav">
+            <span>Em alta</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag1</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag2</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag3</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag4</span>
+        </div>
+        
+    </header>
+
+    <section class = "bloco2">
+        <section class = "bloco21">
+            <div class = "bloco2_title">
+                <h1>Sua plataforma</h1>
+            </div>
+
+            <div class = "bloco_pesquisa">
+                
+                <input class = "barra" type = "text" placeholder = "Nos diga o que você está procurando" />
+                                
+                <button class = "pesquisar">Pesquisar</button>
+                
+            </div>
+
+            <div class = "bloco_postagem">
+                
+                <input class = "bloco_postagem_texto" type = "text" placeholder = "Compartilhe conteúdo com seus colegas" />
+                
+                <div class = "bloco_postagem_arquivo">    
+                    <input class = "bloco_postagem_arquivo_button" type = "file" />   
+                </div>
+
+            </div>
+            
+            
+            <button class = "publicar">Publicar</button>
+            
+        </section>
+    </section>
+
+
+</section>
