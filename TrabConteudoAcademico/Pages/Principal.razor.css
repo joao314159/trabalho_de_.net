@@ -81,7 +81,9 @@ body{
 
     display:flex;
     flex-direction:column;
-    justify-content:flex-start;           
+    justify-content:flex-start;     
+    align-items:stretch;
+    align-content:stretch;      
     width:60%;
     height:400px;
 
@@ -239,6 +241,44 @@ body{
         text-align:center;
 
     }        
+
     .publicar:hover{
         font-weight:bold;
     }
+
+    .bloco_para_postagem{
+        display:block;
+    }
+
+        .bloco_postagem_feita{  
+
+            display:flex;
+            text-align:center;
+
+            border:1px solid gray;
+
+            width:100%;
+            min-height:400px;
+
+
+            margin-top:80px;
+            padding:2px;
+
+            border:2px solid gray;
+            border-radius:8px;
+    
+            background-color:#D9D9D9;
+            color:#0e6172;
+        }
+
+
+             
+          
+             
+              
+            
+
+               
+
+
+            
