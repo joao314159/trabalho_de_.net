@@ -248,28 +248,115 @@ body{
 
     .bloco_para_postagem{
         display:block;
+
+        margin-top:100px;
     }
 
         .bloco_postagem_feita{  
 
             display:flex;
-            text-align:center;
+            flex-direction:column;
 
-            border:1px solid gray;
-
-            width:100%;
-            min-height:400px;
-
-
-            margin-top:80px;
-            padding:2px;
-
-            border:2px solid gray;
-            border-radius:8px;
-    
-            background-color:#D9D9D9;
-            color:#0e6172;
+          
         }
+
+            .bloco_postagem_feita_user{
+                display:flex;
+                flex-direction:row;
+                flex-wrap:nowrap;
+                justify-content:space-between;
+
+                padding:8px;
+                
+                
+
+
+            }   
+                .bloco_postagem_feita_user_esquerda{
+                    display:flex;
+                    flex-wrap:nowrap;
+                }
+
+                .bloco_postagem_feita_user_image{
+                    height:50px;
+                    width:50px;
+
+                    
+                    background-color:black;
+                    border-radius:50%;
+                }
+
+                .bloco_postagem_feita_user_name{
+                    font-size:200%;
+                    font-weight:bold;
+                }
+
+            .buttons{
+                color:white;
+                display:flex;
+                
+                margin:10px;
+            }
+
+            
+                .button_editar{
+                    padding:2px 4px;
+                    margin:1px 2px;
+
+                    height:30px;
+                    width:60px;
+                    border-radius:8px;
+                    background-color:#69d2e7;
+
+                    text-align:center;
+                }   
+                .button_editar:hover{
+                    cursor:pointer;
+                    font-weight:bold;
+
+
+                    height:31px;
+                    width:65px;
+                }
+
+                .button_excluir{
+
+                    padding:2px 4px;
+                    margin:1px 2px;
+
+                    height:30px;
+                    width:60px;
+                    border-radius:8px;
+                    background-color:#fc2911;
+
+                    text-align:center;
+
+                }
+                .button_excluir:hover{
+                    cursor:pointer;
+                    font-weight:bold;
+
+                    height:31px;
+                    width:65px;
+                }
+            
+            .bloco_postagem_feita_texto{
+                text-align:center;
+           
+                width:100%;
+                min-height:400px;
+    
+                margin-top:80px;
+                padding:2px;
+    
+                border:2px solid gray;
+                border-radius:8px;
+        
+                background-color:#D9D9D9;
+                color:#0e6172;
+            }    
+
+
 
 
              
