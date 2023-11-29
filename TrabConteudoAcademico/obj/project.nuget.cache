@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TbgX8mgzy+KDh3j+DktfGuCKlnqeN8IeCrQ1AEoxt9PePxEsNUExIkxYl+w3XjovEyBUrbVlZgmbcgn+FdXO/A==",
+  "dgSpecHash": "2c1fMSuNrz3CaoubwIlSDwO42VKGntOsogVwl78QOiu5DvtO8EVf1DDX5/pvEMsNl8PMNgZIegkNssj/01hLLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IFNMG\\Desktop\\projeto\\trabalho_de_.net\\TrabConteudoAcademico\\TrabConteudoAcademico.csproj",
+  "projectFilePath": "C:\\Users\\IFNMG\\Desktop\\projeto\\trabalho_de_.net-secondaryBranch\\TrabConteudoAcademico\\TrabConteudoAcademico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IFNMG\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\IFNMG\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
